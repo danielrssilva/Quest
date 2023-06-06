@@ -1,0 +1,46 @@
+{
+  "friends": "Amigos",
+  "empty": "Você ainda não tem amigos. Adicione alguns amigos para ver o que eles estão jogando!",
+  "playing": "Jogando",
+  "online": "Conectado",
+  "offline": "Desconectado",
+  "away": "Ausente",
+  "notifications": {
+    "message": "Te enviou uma mensagem",
+    "voice": "Convidou você para um chat de voz",
+    "friend-request": "Te enviou um pedido de amizade",
+    "friend-accept": "Aceitou seu pedido de amizade",
+    "follow": "Começou a te seguir",
+    "news": "Há noticias novas",
+    "review": "Avaliou {{game}}",
+    "quest": "Completou uma missão! {{quest}}"
+  },
+  "options": {
+    "title": "Opções",
+    "input-device": "Dispositivo de entrada",
+    "output-device": "Dispositivo de saída",
+    "default": "Padrão",
+    "volume": "Volume",
+    "mode": "Modo de entrada",
+    "open": "Abrir automaticamente",
+    "ptt": "Pressionar para falar",
+    "pts": "Pressionar para silenciar",
+    "keybind": "Tecla de atalho",
+    "chat": "Chat",
+    "clear-history": "Limpar histórico"
+  },
+  "account": {
+    "logout": "Sair",
+    "profile": "Meu perfil",
+    "settings": "Configurações",
+    "manage-subscription": "Gerenciar assinatura"
+  },
+  "friend-options": {
+    "profile": "Ver perfil",
+    "unfriend": "Remover amigo",
+    "message": "Enviar mensagem",
+    "voice": "Iniciar chat de voz",
+    "add-nickname": "Adicionar apelido",
+    "edit-nickname": "Editar apelido"
+  }
+}

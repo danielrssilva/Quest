@@ -1,0 +1,45 @@
+{
+  "profile": "Perfil",
+  "wishlist": "Desejos",
+  "more": "Mais",
+  "manage": "Gerenciar",
+  "edit-info": "Editar informação do perfil",
+  "unlink": "Desvincular todos",
+  "link-accounts": "Vincular contas de jogos",
+  "game-library": "Biblioteca de jogos",
+  "tags": {
+    "collector": "Colecionador",
+    "casual": "Jogador Casual",
+    "fashionista": "Fashionista",
+    "singleplayer": "Singleplayer",
+    "multiplayer": "Multiplayer",
+    "speedrunner": "Speedrunner"
+  },
+  "404": {
+    "title": "Oh não!",
+    "subtitle": "Parece que você se perdeu",
+    "text": "Não se preocupe, nossos magos podem te levar para casa",
+    "home": "Abrir portal para casa"
+  },
+
+  "crop-title": "Cortar imagem de perfil",
+  "crop-save": "Salvar",
+  "crop-cancel": "Cancelar",
+
+  "game-info": {
+    "game-library-empty": "Your game library is empty",
+
+    "hours": "Horas",
+    "gametag": "Gametag",
+    "rank": "Ranking",
+    "current-highest-elo": "Elo atual mais alto",
+    "favorite-weapon": "Arma favorita",
+    "favorite-agent": "Agente favorito",
+    "favorite-champion": "Campeão favorito",
+    "favorite-hero": "Herói favorito",
+    "favorite-role": "Função favorita",
+    "favorite-map": "Mapa favorito",
+    "summoner-level": "Nível de invocador",
+    "achievements": "Conquistas"
+  }
+}

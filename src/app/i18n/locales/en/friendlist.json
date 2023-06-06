@@ -1,0 +1,46 @@
+{
+  "friends": "Friends",
+  "empty": "You don't have any friends yet. Add some friends to see what they're playing!",
+  "playing": "Playing",
+  "online": "Online",
+  "offline": "Offline",
+  "away": "Away",
+  "notifications": {
+    "message": "Sent you a message",
+    "voice": "Invited you to a voice chat",
+    "friend-request": "Sent you a friend request",
+    "friend-accept": "Accepted your friend request",
+    "follow": "Started following you",
+    "news": "There's recent unread news",
+    "review": "Has posted a {{game}} review",
+    "quest": "You completed a quest! {{quest}}"
+  },
+  "options": {
+    "title": "Options",
+    "input-device": "Input Device",
+    "output-device": "Output Device",
+    "default": "Default",
+    "volume": "Volume",
+    "mode": "Input mode",
+    "open": "Open microphone",
+    "ptt": "Push to talk",
+    "pts": "Push to silence",
+    "keybind": "Keybind",
+    "chat": "Chat",
+    "clear-history": "Clear chat history"
+  },
+  "account": {
+    "logout": "Logout",
+    "profile": "My profile",
+    "settings": "Settings",
+    "manage-subscription": "Manage subscription"
+  },
+  "friend-options": {
+    "profile": "View profile",
+    "unfriend": "Unfriend",
+    "message": "Send message",
+    "voice": "Start voice chat",
+    "add-nickname": "Add nickname",
+    "edit-nickname": "Edit nickname"
+  }
+}

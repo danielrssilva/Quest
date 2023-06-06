@@ -1,0 +1,7 @@
+{
+  "inbox": "Inbox",
+  "you": "You: {{content}}",
+  "messages": "{{count}} new messages",
+  "empty": "You have no new messages",
+  "reply": "Type something..."
+}

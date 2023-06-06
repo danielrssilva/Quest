@@ -1,0 +1,40 @@
+{
+  "quests": "Quests",
+  "completed": "Completed",
+  "incomplete": "Incomplete",
+  "manage": "Manage",
+  "secret-name": "Secret Quest",
+  "secret-description": "This mission is a secret. Details won't be shown until completed",
+  "quest1": {
+    "name": "Beta tester",
+    "description": "This user participated on the Quest beta test. Thank you for your help, buddy!"
+  },
+  "quest2": {
+    "name": "[TBD] Reviewer",
+    "description": "This user gave a review. Reviews can be created by visiting a game page"
+  },
+  "quest3": {
+    "name": "Perfectionist",
+    "description": "This user has completed 100% of the Quests. Congratulations!"
+  },
+  "quest4": {
+    "name": "Liker",
+    "description": "This user has liked 100+ Quests Logs"
+  },
+  "quest5": {
+    "name": "Veteran",
+    "description": "This user has been a member of Quest since release"
+  },
+  "quest6": {
+    "name": "Socialite",
+    "description": "This user has 10+ followers"
+  },
+  "quest7": {
+    "name": "Influencer",
+    "description": "This user has 1000+ followers"
+  },
+  "quest8": {
+    "name": "Lonewolf",
+    "description": "This attempted to become friends with themselves"
+  }
+}

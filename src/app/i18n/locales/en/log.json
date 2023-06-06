@@ -1,0 +1,27 @@
+{
+  "title": "New log",
+
+  "schedule": "Schedule",
+  "view": "Who can view",
+  "reply": "Who can reply",
+
+  "everyone": "Everyone",
+  "friends": "Friends",
+  "private": "Only me",
+  "nobody": "Nobody",
+
+  "add-log": "Add your log here",
+  "game": "Game",
+  "genre": "Genre",
+  "platform": "Platform",
+  "attach": "Attach media related to this log",
+  "files": "{{count}} files attached",
+  "remove": "Remove all",
+
+  "favorites": "Favorites",
+  "on-wishlist": "On your wishlist",
+
+  "link": "Link new log",
+  "save": "Save as draft",
+  "submit": "Submit log"
+}

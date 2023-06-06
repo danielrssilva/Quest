@@ -1,0 +1,51 @@
+{
+  "profile": "Profile",
+  "wishlist": "Wishlist",
+  "more": "More",
+  "manage": "Manage",
+  "edit-info": "Edit profile info",
+  "unlink": "Unlink all",
+  "link-accounts": "Link your game accounts",
+  "game-library": "Game Library",
+  "tags": {
+    "collector": "Collector",
+    "casual": "Casual Player",
+    "fashionista": "Fashionista",
+    "singleplayer": "Singleplayer",
+    "multiplayer": "Multiplayer",
+    "speedrunner": "Speedrunner"
+  },
+  "404": {
+    "title": "Oh no!",
+    "subtitle": "Looks like you got lost",
+    "text": "Worry not, our wizards can take you back home",
+    "home": "Portal me Home"
+  },
+
+  "crop-title": "Crop profile avatar",
+  "crop-save": "Save",
+  "crop-cancel": "Cancel",
+
+  "game-info": {
+    "game-library-empty": "Your game library is empty",
+
+    "hours": "Hours",
+    "gametag": "Gametag",
+    "rank": "Rank",
+    "current-highest-elo": "Current Highest Elo",
+    "favorite-weapon": "Favorite Weapon",
+    "favorite-agent": "Favorite Agent",
+    "favorite-champion": "Favorite Champion",
+    "favorite-hero": "Favorite Hero",
+    "favorite-role": "Favorite Role",
+    "favorite-map": "Favorite Map",
+    "summoner-level": "Summoner Level",
+    "achievements": "Achievements"
+  },
+
+  "quests-modal": {
+    "title": "Your quests",
+    "subtitle": "Right click to remove and drag to change the order",
+    "quests": "Quests"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "quests": "Missões",
+  "completed": "Alcançada",
+  "incomplete": "Não alcançada",
+  "manage": "Gerenciar",
+  "secret-name": "Missão secreta",
+  "secret-description": "Esta missão é secreta. Os detalhes não serão mostrados até que seja alcançada",
+  "quest1": {
+    "name": "Beta Tester",
+    "description": "Este usuário participou do teste beta do Quest. Obrigado pela ajuda, amigo!"
+  },
+  "quest2": {
+    "name": "Crítico",
+    "description": "Este usuário deu uma avaliação. As avaliações podem ser criadas visitando a página de um jogo"
+  },
+  "quest3": {
+    "name": "Perfeccionista",
+    "description": "Este usuário completou 100% das Quests. Parabéns!"
+  },
+  "quest4": {
+    "name": "Curtidor",
+    "description": "Este usuário curtiu 100+ Quests Logs"
+  },
+  "quest5": {
+    "name": "Veterano",
+    "description": "Este usuário é membro do Quest desde o lançamento"
+  },
+  "quest6": {
+    "name": "Socialite",
+    "description": "Este usuário tem 10+ seguidores"
+  },
+  "quest7": {
+    "name": "Influencer",
+    "description": "Este usuário tem 1000+ seguidores"
+  },
+  "quest8": {
+    "name": "Lobo Solitário",
+    "description": "Este usuário tentou se tornar amigo de si mesmo"
+  }
+}

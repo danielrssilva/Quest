@@ -1,0 +1,23 @@
+{
+  "about": "About the game",
+  "related": "Related games",
+  "news": "Latest news",
+  "other": "Other info",
+  "media": "Media",
+  "suggested": "Suggested by",
+
+  "add-wishlist": "Add to wishlist",
+  "remove-wishlist": "Remove from wishlist",
+  "view-all": "View all",
+  "view-reviews": "View reviews",
+
+  "all": "All",
+  "friends": "Friends",
+  "none": "None",
+
+  "developer": "Developer",
+  "publisher": "Publisher",
+  "launch": "Launch date",
+  "platforms": "Platforms",
+  "tags-genre": "Tags and Genre"
+}

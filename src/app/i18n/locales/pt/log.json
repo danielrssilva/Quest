@@ -1,0 +1,27 @@
+{
+  "title": "Novo log",
+
+  "schedule": "Agendar",
+  "view": "Quem pode visualizar",
+  "reply": "Quem pode responder",
+
+  "everyone": "Todos",
+  "friends": "Amigos",
+  "private": "Somente eu",
+  "nobody": "Ninguém",
+
+  "add-log": "Adicione seu log",
+  "game": "Jogo",
+  "genre": "Gênero",
+  "platform": "Plataforma",
+  "attach": "Anexar mídia relacionadas ao log",
+  "files": "{{count}} arquivos anexados",
+  "remove": "Remover todos",
+
+  "favorites": "Favoritos",
+  "on-wishlist": "Na lista de desejos",
+
+  "link": "Vincular novo log",
+  "save": "Salvar como rascunho",
+  "submit": "Enviar log"
+}

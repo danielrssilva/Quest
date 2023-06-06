@@ -1,0 +1,126 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import './Normalize.scss';
+@import './Config.scss';
+
+/* Scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: $foreground $white;
+}
+
+*:focus {
+  outline-color: $accent;
+}
+
+*::-webkit-scrollbar {
+  width: 0.625rem;
+  height: 0.625rem;
+}
+
+*::-webkit-scrollbar-track {
+  background: none;
+  border-radius: 1rem;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: $foreground;
+  border: 3px solid $background;
+  border-radius: 1rem;
+}
+
+.text-area {
+  ::-moz-selection {
+    color: $white;
+    background: $accent;
+  }
+  ::selection {
+    color: $white;
+    background: $accent;
+  }
+}
+.text-area *::-webkit-scrollbar {
+  width: 1.2rem;
+  height: 0.225rem;
+}
+.text-area *::-webkit-scrollbar-thumb {
+  border: 7px solid $accent-light;
+  background-color: $accent;
+}
+
+/* Custom */
+.dropdown {
+  @apply absolute scale-0 opacity-0 transition;
+}
+.has-dropdown {
+  @apply relative;
+}
+.has-dropdown:hover .dropdown,
+.has-dropdown:focus .dropdown,
+.has-dropdown:active .dropdown,
+.dropdown:hover {
+  @apply z-20 scale-100 opacity-100;
+}
+.tooltip {
+  @apply absolute scale-0 opacity-0 transition;
+}
+.has-tooltip {
+  @apply relative;
+}
+.has-tooltip:hover .tooltip {
+  @apply z-20 scale-100 opacity-100;
+}
+
+.family-lato {
+  font-family: $secondary-font;
+}
+
+@mixin selection {
+  ::-moz-selection {
+    @content;
+  }
+  ::selection {
+    @content;
+  }
+}
+
+@include selection {
+  color: $accent;
+  background: $accent-light;
+}
+/* Override */
+.cropper-line,
+.cropper-point {
+  background-color: $white !important;
+}
+.cropper-drag-box,
+.cropper-wrap-box {
+  border-radius: 0.5rem !important;
+}
+.cropper-view-box {
+  outline-color: $white !important;
+  border-radius: 1000000px !important;
+}
+.cropper-modal {
+  background-color: rgba($foreground, 0.8) !important;
+}
+.cropper-face {
+  background-color: transparent !important;
+  border: 1px solid $white !important;
+}
+
+/* Global */
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  background-color: $background;
+  color: $foreground;
+  font-family: $primary-font;
+}
