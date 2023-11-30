@@ -13,5 +13,5 @@ export default function UserManager(props: DefaultProps) {
   const { pages, friendList } = props;
   const { user } = useUserContext();
 
-  return user?.isProfileComplete ? friendList : pages;
+  return <>{user?.isProfileComplete ? friendList : pages}</>;
 }

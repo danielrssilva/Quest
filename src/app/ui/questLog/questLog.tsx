@@ -10,7 +10,6 @@ import Comment from './comment';
 import { Input } from '../input/input';
 import Button from '../button';
 import { SendIcon, WorldIcon } from '../icons';
-import { useTranslation } from '@/app/i18n/client';
 
 interface QuestLogProps {
   log: QuestLog;

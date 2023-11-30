@@ -11,7 +11,7 @@ import Login from './(friendlist)/@contentManager/@pages/@login/default';
 import Landing from './(friendlist)/@contentManager/@pages/@landing/default';
 import Register from './(friendlist)/@contentManager/@pages/@register/default';
 
-export default async function Default(props) {
+export default async function Default(props: LayoutProps) {
   return Layout({
     ...props,
     userManager: (
@@ -19,7 +19,7 @@ export default async function Default(props) {
         {...{
           ...props,
           currentUser: <CurrentUser {...props} />,
-          noUser: <NoUser {...props} />,
+          noUser: <NoUser />,
         }}
       />
     ),
@@ -31,10 +31,10 @@ export default async function Default(props) {
             <Pages
               {...{
                 ...props,
-                landing: <Landing {...props} />,
-                login: <Login {...props} />,
-                register: <Register {...props} />,
-                pendingProfile: <PendingProfile {...props} />,
+                landing: <Landing />,
+                login: <Login />,
+                register: <Register />,
+                pendingProfile: <PendingProfile />,
               }}
             />
           ),

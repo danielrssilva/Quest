@@ -2,16 +2,13 @@
 
 import { useRef, useState } from 'react';
 import Cropper, { ReactCropperElement } from 'react-cropper';
-import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 
 import { useTranslation } from '@/app/i18n/client';
-import { useUserContext } from '@/app/stores/user';
 import Button from '@/app/ui/button';
 import IconButton from '@/app/ui/button/iconButton';
 import { CloseIcon } from '@/app/ui/icons';
 import { useEditUserContext } from '@/app/stores/editUser';
-import { debounce } from 'lodash';
 
 interface LogProps {
   params: { lang: string };

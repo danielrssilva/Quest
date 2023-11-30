@@ -3,7 +3,6 @@
 import Card from '@/app/ui/card';
 import Tag from '@/app/ui/tag';
 import Image from 'next/image';
-import Link from 'next/link';
 import { Fragment } from 'react';
 import { MouseIcon, CellphoneIcon, ControllerIcon } from '@/app/ui/icons';
 import Button from '@/app/ui/button';

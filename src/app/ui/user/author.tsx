@@ -1,9 +1,7 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { getUserGametag } from '@/app/utils';
 import { format } from 'date-fns';
 import Avatar from './avatar';
-// import { useTranslation } from '@/app/i18n';
 
 export interface UserProps {
   user: Author | NewsAuthor;
@@ -13,10 +11,7 @@ export interface UserProps {
 }
 
 export default function Author({ user, date, lang }: UserProps) {
-  // const { t } = await useTranslation(lang, 'friendlist');
   const { username, gametag, avatar } = user;
-
-  //   const t = (key: string) => key;
 
   return (
     <Link

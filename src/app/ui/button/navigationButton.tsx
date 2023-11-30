@@ -48,19 +48,19 @@ export default function NavigationButton(props: NavigationButtonProps) {
           >
             <span className="h-4 w-4" /> <span>{t('logs')}</span>
           </Link>
-          {/* <Link
+          <Link
             href={`${gameLink}/reviews/`}
             className="box-border flex h-8 w-auto items-center gap-2 rounded-lg p-2 text-accent transition hover:bg-accent-light"
           >
             <StarIcon />
             <span>{t('reviews')}</span>
-          </Link> */}
-          {/* <Link
+          </Link>
+          <Link
             href={`${gameLink}/news/`}
             className="box-border flex h-8 w-auto items-center gap-2 rounded-lg p-2 text-accent transition hover:bg-accent-light"
           >
             <NewsIcon /> <span>{t('news')}</span>
-          </Link> */}
+          </Link>
           <Link
             href={`${gameLink}`}
             className="box-border flex h-8 w-auto items-center gap-2 rounded-lg p-2 text-accent transition hover:bg-accent-light"

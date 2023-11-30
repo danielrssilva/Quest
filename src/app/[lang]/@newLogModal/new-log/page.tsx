@@ -5,9 +5,9 @@ import IconButton from '@/app/ui/button/iconButton';
 import {
   AttachIcon,
   CloseIcon,
-  // FolderIcon,
-  // SettingsIcon,
-  // WorldIcon,
+  FolderIcon,
+  SettingsIcon,
+  WorldIcon,
 } from '@/app/ui/icons';
 import { Select, TextArea } from '@/app/ui/input/input';
 import { useRouter } from 'next/navigation';
@@ -50,7 +50,7 @@ export default function Log({ params }: LogProps) {
           <div className="flex w-full justify-between">
             <div className="flex items-baseline gap-4">
               <h1 className="text-lg font-bold uppercase">{t('title')}</h1>
-              {/* <button className="has-dropdown text-sm text-accent">
+              <button className="has-dropdown text-sm text-accent">
                 Schedule this log
                 <div className="dropdown flex w-64 flex-col items-center gap-4 rounded-lg bg-white p-4">
                   <h1 className="text-lg text-foreground">Schedule</h1>
@@ -59,26 +59,26 @@ export default function Log({ params }: LogProps) {
                     <Select placeholder="9:30 AM" options={[]} />
                   </div>
                 </div>
-              </button> */}
+              </button>
             </div>
             <div className="flex gap-2">
-              {/* <IconButton icon={<FolderIcon />} size="sm" /> */}
-              {/* <IconButton icon={<WorldIcon />} size="sm">
+              <IconButton icon={<FolderIcon />} size="sm" />
+              <IconButton icon={<WorldIcon />} size="sm">
                 <div className="dropdown z-30 flex w-60 flex-col items-center gap-4 rounded-lg bg-white p-4">
                   <h1 className="text-lg text-foreground">Who can view</h1>
                   <input type="checkbox" />
                   <input type="checkbox" />
                   <input type="checkbox" />
                 </div>
-              </IconButton> */}
-              {/* <IconButton icon={<SettingsIcon />} size="sm">
+              </IconButton>
+              <IconButton icon={<SettingsIcon />} size="sm">
                 <div className="dropdown z-30 flex w-60 flex-col items-center gap-4 rounded-lg bg-white p-4">
                   <h1 className="text-lg text-foreground">Who can reply</h1>
                   <input type="checkbox" />
                   <input type="checkbox" />
                   <input type="checkbox" />
                 </div>
-              </IconButton> */}
+              </IconButton>
               <IconButton
                 icon={<CloseIcon />}
                 onClick={router.back}
@@ -86,13 +86,18 @@ export default function Log({ params }: LogProps) {
               />
             </div>
           </div>
-          <TextArea placeholder="Add your log here" showCount maxLength={500} />
+          <TextArea
+            size="full"
+            placeholder="Add your log here"
+            showCount
+            maxLength={500}
+          />
           <div className="flex justify-between gap-4">
             <Select placeholder={t('game') || ''} options={gameMock} />
             <Select placeholder={t('genre') || ''} options={[]} />
             <Select placeholder={t('platform') || ''} options={[]} />
           </div>
-          {/* <div className="flex w-full justify-between">
+          <div className="flex w-full justify-between">
             <div className="flex items-center items-baseline gap-2">
               <label
                 htmlFor="attach-files-log-1"
@@ -116,10 +121,10 @@ export default function Log({ params }: LogProps) {
               </span>
             </div>
             <button className="text-sm text-accent">{t('remove')}</button>
-          </div> */}
+          </div>
           <div className="flex items-center justify-end gap-4">
-            {/* <Button>{t('link')</Button> */}
-            {/* <Button>{t('save')</Button> */}
+            <Button>{t('link')}</Button>
+            <Button>{t('save')}</Button>
             <Button>{t('submit')}</Button>
           </div>
         </div>

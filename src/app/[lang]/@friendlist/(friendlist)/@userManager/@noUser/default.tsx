@@ -3,7 +3,7 @@
 import { useUserContext, userMock } from '@/app/stores/user';
 
 export default function NoUser() {
-  const { user, setUser } = useUserContext();
+  const { setUser } = useUserContext();
 
   return (
     <div className="box-border flex w-full items-center justify-center bg-foreground p-4">

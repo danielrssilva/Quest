@@ -12,5 +12,7 @@ export interface DefaultProps {
 export default function UserManager(props: DefaultProps) {
   const { user } = useUserContext();
 
-  return user && user.isProfileComplete ? props.currentUser : props.noUser;
+  return (
+    <>{user && user.isProfileComplete ? props.currentUser : props.noUser}</>
+  );
 }

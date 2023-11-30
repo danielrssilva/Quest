@@ -24,8 +24,7 @@ export default async function Profile({ params }: ProfileProps) {
 
   const user = (await response.json()) as Profile;
   const { avatar, username, nickname, gametag } = user;
-  const { badges, description, platforms, tags, friendsCount, followersCount } =
-    user;
+  const { badges, description, platforms, tags } = user;
 
   return (
     <div className="flex flex-col gap-4">

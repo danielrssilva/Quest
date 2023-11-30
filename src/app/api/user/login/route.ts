@@ -1,4 +1,3 @@
-import { split } from 'lodash';
 import { NextResponse } from 'next/server';
 
 const usersMock: Profile[] = [
@@ -66,27 +65,6 @@ const usersMock: Profile[] = [
   },
 ];
 
-const databaseMock = [
-  {
-    id: 'ec4f27cc-9095-4fbb-ade7-6a82d67af919',
-    username: 'datFranky',
-    gametag: '0807',
-    email: 'mail@franky.com',
-    password: '123456',
-  },
-];
-
-export async function GET(request: Request) {
-  const params = new URL(request.url).searchParams;
-  const user = databaseMock.find(
-    ({ email, password }) =>
-      email === params.email && password === params.password
-  ) || { username: '', gametag: '' };
-  const userMock =
-    usersMock.find(
-      ({ username, gametag }) =>
-        user.username.toLocaleLowerCase() === username.toLocaleLowerCase() &&
-        user.gametag.toLocaleLowerCase() === gametag.toLocaleLowerCase()
-    ) || {};
-  return NextResponse.json(userMock);
+export async function GET() {
+  return NextResponse.json(usersMock[0]);
 }

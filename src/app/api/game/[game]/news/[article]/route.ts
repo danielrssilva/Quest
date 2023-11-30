@@ -49,12 +49,12 @@ const newsMock: Article = {
   ],
 };
 
-interface GameNewsRequestProps {
-  params: {
-    uuid: string;
-  };
-}
+// interface GameNewsRequestProps {
+//   params: {
+//     uuid: string;
+//   };
+// }
 
-export async function GET(_: Request, { params }: GameNewsRequestProps) {
+export async function GET() {
   return NextResponse.json(newsMock);
 }

@@ -7,13 +7,8 @@ import { useTranslation } from '@/app/i18n/client';
 import { useUserContext } from '@/app/stores/user';
 import Button from '@/app/ui/button';
 import { useEditUserContext } from '@/app/stores/editUser';
-import {
-  DragDropContext,
-  Droppable,
-  Draggable,
-  DropResult,
-} from 'react-beautiful-dnd';
-import { DraggableQuests, Quest } from '@/app/ui/quests/quests';
+import { DragDropContext, DropResult } from 'react-beautiful-dnd';
+import { DraggableQuests } from '@/app/ui/quests/quests';
 import { getUserGametag } from '@/app/utils';
 
 interface LogProps {
@@ -52,7 +47,7 @@ export default function Log({ params }: LogProps) {
         setUserQuests(json);
       })
       .catch((error) => console.error(error));
-    // setIsLoading(false);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user]);
 
   const onDragEnd = (result: DropResult) => {

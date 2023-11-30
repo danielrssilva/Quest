@@ -7,10 +7,12 @@ export async function GET() {
     `https://api.rawg.io/api/games?key=${key}&page_size=10`
   );
   const data = await res.json();
-  const response = data.results.map((game) => ({
-    id: game.id,
-    name: game.slug,
-    image: game.background_image,
-  }));
+  const response = data.results.map(
+    (game: { id: string; slug: string; background_image: string }) => ({
+      id: game.id,
+      name: game.slug,
+      image: game.background_image,
+    })
+  );
   return NextResponse.json(response);
 }

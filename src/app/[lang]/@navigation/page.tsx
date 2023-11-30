@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 
 import { NavigationButton } from '@/app/ui/button';
-import { ExploreIcon, FavoriteIcon } from '@/app/ui/icons';
+import { ExploreIcon, FavoriteIcon, SettingsIcon } from '@/app/ui/icons';
 import classNames from '@/app/utils/classNames';
 import Link from 'next/link';
 import { getCleanGameName } from '@/app/utils';
@@ -22,8 +22,6 @@ export default function Navigation({ params }: NavigationProps) {
   const currentGame = pathname.slice(7).split('/')[0];
   const { user } = useUserContext();
 
-  const userId = user?.id;
-
   useEffect(() => {
     setIsLoading(true);
     fetch(`http://localhost:3000/api/game/suggestions?user=${user?.id}`)
@@ -36,7 +34,7 @@ export default function Navigation({ params }: NavigationProps) {
         console.error(error);
         setIsLoading(false);
       });
-  }, [userId]);
+  }, [user?.id]);
 
   return (
     <nav className="fixed left-0 z-20 flex h-full w-20 flex-col items-center justify-between gap-4 overflow-x-visible bg-foreground p-4 shadow-[inset_-4px_0_5px_rgba(0,0,0,0.2)]">
@@ -124,9 +122,9 @@ export default function Navigation({ params }: NavigationProps) {
           </>
         )}
       </div>
-      {/* <section className="flex items-center justify-center p-4">
-        <SettingsIcon size="md" color="stroke-background" />
-      </section> */}
+      <section className="-stroke-background flex items-center justify-center p-4">
+        <SettingsIcon />
+      </section>
     </nav>
   );
 }
